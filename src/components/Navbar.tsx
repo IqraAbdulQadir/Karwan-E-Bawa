@@ -54,14 +54,14 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="md:hidden bg-black px-4 pb-4 space-y-2">
-          <Link href="/" className="block hover:text-white transition">Home</Link>
-          <Link href="/Umrah" className="block hover:text-white transition">Umrah</Link>
-          <Link href="/Tours" className="block hover:text-white transition">International Tours</Link>
-          <Link href="/Visa" className="block hover:text-white transition">Visa</Link>
-          <Link href="/Blog" className="block hover:text-white transition">Blog</Link>
-          <Link href="/Gallery" className="block hover:text-white transition">Gallery</Link>
-          <Link href="/About" className="block hover:text-white transition">About</Link>
-          <Link href="/Contact" className="block hover:text-white transition">Contact</Link>
+          <Link href="/" onClick={() => setMenuOpen(false)} className="block hover:text-white transition">Home</Link>
+          <Link href="/Umrah" onClick={() => setMenuOpen(false)} className="block hover:text-white transition">Umrah</Link>
+          <Link href="/Tours" onClick={() => setMenuOpen(false)} className="block hover:text-white transition">International Tours</Link>
+          <Link href="/Visa" onClick={() => setMenuOpen(false)} className="block hover:text-white transition">Visa</Link>
+          <Link href="/Blog" onClick={() => setMenuOpen(false)} className="block hover:text-white transition">Blog</Link>
+          <Link href="/Gallery" onClick={() => setMenuOpen(false)} className="block hover:text-white transition">Gallery</Link>
+          <Link href="/About" onClick={() => setMenuOpen(false)} className="block hover:text-white transition">About</Link>
+          <Link href="/Contact" onClick={() => setMenuOpen(false)} className="block hover:text-white transition">Contact</Link>
         </div>
       )}
     </nav>

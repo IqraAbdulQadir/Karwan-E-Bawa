@@ -39,13 +39,13 @@ export default function Footer() {
       <div className="absolute inset-0">
         
         <Image
-          src="/images/footer2.jpg" // Place your image in public/images/
+          src="/images/hhh.jpg" // Place your image in public/images/
           alt="Footer Background"
           fill
           className="object-cover object-center"
           priority
         />
-        <div className="absolute inset-0 bg-black/70"></div> {/* Dark overlay */}
+        <div className="absolute inset-0 bg-black/80"></div> {/* Dark overlay */}
       </div>
 
       {/* Footer Content */}
