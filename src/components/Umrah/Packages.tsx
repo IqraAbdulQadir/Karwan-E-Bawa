@@ -6,11 +6,15 @@ export function Packages() {
     },
     {
       title: "Standard Umrah",
-      image: "/images/Umrah Pack2.jpeg",
+      image: "/images/Umrah Pack3.jpeg",
     },
     {
       title: "Premium Umrah",
-      image: "/images/Umrah Pack1.jpeg",
+      image: "/images/Umrah Pack4.jpeg",
+    },
+    {
+      title: "Premium Umrah",
+      image: "/images/Umrah Pack2.jpeg",
     },
   ];
 
