@@ -73,7 +73,7 @@ export default function Footer() {
   </div>
 
   <p className="text-gray-300">
-    Providing the best Hajj and Umrah services with care, trust, and professionalism.
+    Providing the best Umrah and travel services with care, trust, and professionalism.
     Experience a spiritual journey like never before.
   </p>
 </div>
@@ -88,23 +88,29 @@ export default function Footer() {
               <Link href="/" className="hover:text-yellow-400 transition">Home</Link>
             </li>
             <li>
-              <Link href="/About" className="hover:text-yellow-400 transition">About Us</Link>
-            </li>
-            <li>
               <Link href="/Umrah" className="hover:text-yellow-400 transition">Umrah</Link>
-            </li>
-            <li>
-              <Link href="/Contact" className="hover:text-yellow-400 transition">Contact</Link>
-            </li>
-            <li>
-              <Link href="/Gallery" className="hover:text-yellow-400 transition">Gallery</Link>
             </li>
             <li>
               <Link href="/Tours" className="hover:text-yellow-400 transition">International tours</Link>
             </li>
             <li>
-              <Link href="/Blog" className="hover:text-yellow-400 transition">Blog</Link>
+              <Link href="/Visa" className="hover:text-yellow-400 transition">Visa</Link>
             </li>
+            <li>
+              <Link href="/Gallery" className="hover:text-yellow-400 transition">Gallery</Link>
+            </li>
+            <li>
+              <Link href="/About" className="hover:text-yellow-400 transition">About Us</Link>
+            </li>
+            
+            <li>
+              <Link href="/Contact" className="hover:text-yellow-400 transition">Contact</Link>
+            </li>
+            
+            
+            {/* <li>
+              <Link href="/Blog" className="hover:text-yellow-400 transition">Blog</Link>
+            </li> */}
           </ul>
         </div>
 
